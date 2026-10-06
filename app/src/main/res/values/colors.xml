@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_principal">#1E5BC6</color>
+    <color name="azul_oscuro">#174A9E</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="texto_principal">#212121</color>
+    <color name="texto_secundario">#757575</color>
+    <color name="gris_fondo">#F2F2F2</color>
+    <color name="gris_burbuja">#E4E6EB</color>
+    <color name="gris_borde">#C8C8C8</color>
+    <color name="gris_divisor">#DDDDDD</color>
+    <color name="verde_en_linea">#2EB872</color>
+    <color name="avatar_morado">#8E44AD</color>
+    <color name="avatar_verde">#27AE60</color>
+    <color name="avatar_naranja">#E67E22</color>
+    <color name="avatar_rojo">#C0392B</color>
+</resources>

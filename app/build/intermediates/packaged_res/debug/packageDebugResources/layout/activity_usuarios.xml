@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Listado de usuarios CustomListView -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    android:orientation="vertical">
+
+    <!-- Barra  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/azul_principal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <ImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/boton_menu"
+            android:src="@drawable/ic_menu"
+            app:tint="@color/blanco" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_weight="1"
+            android:text="@string/usuarios_titulo"
+            android:textColor="@color/blanco"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ivBuscar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/boton_buscar"
+            android:src="@drawable/ic_lupa"
+            app:tint="@color/blanco" />
+    </LinearLayout>
+
+    <!-- Lista de 20 usuarios -->
+    <ListView
+        android:id="@+id/lvUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/gris_divisor"
+        android:dividerHeight="1dp" />
+
+    <!-- Barrita de abajo-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gris_fondo"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/menuUsuarios"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="@string/icono"
+                android:src="@drawable/ic_personas"
+                app:tint="@color/azul_principal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_usuarios"
+                android:textColor="@color/azul_principal"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menuChat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="@string/icono"
+                android:src="@drawable/ic_chat"
+                app:tint="@color/texto_secundario" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_chat"
+                android:textColor="@color/texto_secundario"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menuPerfil"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="@string/icono"
+                android:src="@drawable/ic_persona"
+                app:tint="@color/texto_secundario" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_perfil"
+                android:textColor="@color/texto_secundario"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

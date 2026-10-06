@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ChatApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/azul_principal</item>
+        <item name="colorPrimaryDark">@color/azul_oscuro</item>
+        <item name="colorAccent">@color/azul_principal</item>
+        <item name="android:windowBackground">@color/blanco</item>
+    </style>
+</resources>

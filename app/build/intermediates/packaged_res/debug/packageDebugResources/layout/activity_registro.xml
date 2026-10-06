@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Registro -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    android:orientation="vertical">
+
+    <!-- Barra superior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/azul_principal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <ImageView
+            android:id="@+id/ivRegresar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/boton_regresar"
+            android:src="@drawable/ic_arrow_back"
+            app:tint="@color/blanco" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/registro_titulo"
+            android:textColor="@color/blanco"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/registro_etiqueta_nombre"
+            android:textColor="@color/texto_principal"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_campo"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="@string/icono"
+                android:src="@drawable/ic_persona"
+                app:tint="@color/texto_principal" />
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/registro_hint_nombre"
+                android:inputType="textPersonName"
+                android:paddingStart="12dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/registro_etiqueta_correo"
+            android:textColor="@color/texto_principal"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_campo"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="@string/icono"
+                android:src="@drawable/ic_mail"
+                app:tint="@color/texto_principal" />
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/registro_hint_correo"
+                android:inputType="textEmailAddress"
+                android:paddingStart="12dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/registro_etiqueta_usuario"
+            android:textColor="@color/texto_principal"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_campo"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="@string/icono"
+                android:src="@drawable/ic_persona"
+                app:tint="@color/texto_principal" />
+
+            <EditText
+                android:id="@+id/etUsuarioRegistro"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/registro_hint_usuario"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/registro_etiqueta_clave"
+            android:textColor="@color/texto_principal"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_campo"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="@string/icono"
+                android:src="@drawable/ic_lock"
+                app:tint="@color/texto_principal" />
+
+            <EditText
+                android:id="@+id/etClaveRegistro"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/registro_hint_clave"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/ivVerClaveRegistro"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="@string/ver_clave"
+                android:src="@drawable/ic_ojito"
+                app:tint="@color/texto_secundario" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/registro_etiqueta_confirmar"
+            android:textColor="@color/texto_principal"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_campo"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="@string/icono"
+                android:src="@drawable/ic_lock"
+                app:tint="@color/texto_principal" />
+
+            <EditText
+                android:id="@+id/etConfirmarClave"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/registro_hint_confirmar"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/ivVerConfirmar"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="@string/ver_clave"
+                android:src="@drawable/ic_ojito"
+                app:tint="@color/texto_secundario" />
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegistrarse"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_boton_azul"
+                android:text="@string/registro_boton"
+                android:textAllCaps="false"
+                android:textColor="@color/blanco"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvYaTienesCuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/registro_ya_tienes_cuenta"
+                android:textColor="@color/azul_principal"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

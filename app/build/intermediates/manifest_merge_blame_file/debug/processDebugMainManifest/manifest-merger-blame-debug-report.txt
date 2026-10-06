@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.examen.chatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.10.1] C:\Users\gutie\.gradle\caches\transforms-4\dce9e2a7347948bfa2df442de04f4367\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+12        android:name="com.examen.chatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.10.1] C:\Users\gutie\.gradle\caches\transforms-4\dce9e2a7347948bfa2df442de04f4367\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.10.1] C:\Users\gutie\.gradle\caches\transforms-4\dce9e2a7347948bfa2df442de04f4367\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.examen.chatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.10.1] C:\Users\gutie\.gradle\caches\transforms-4\dce9e2a7347948bfa2df442de04f4367\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.10.1] C:\Users\gutie\.gradle\caches\transforms-4\dce9e2a7347948bfa2df442de04f4367\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:4:5-23:19
+18        android:allowBackup="true"
+18-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.10.1] C:\Users\gutie\.gradle\caches\transforms-4\dce9e2a7347948bfa2df442de04f4367\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:label="@string/app_name"
+22-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:6:9-41
+23        android:supportsRtl="true"
+23-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:7:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.ChatApp" >
+25-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:8:9-45
+26
+27        <!-- Pantalla de inicio de sesión -->
+28        <activity
+28-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:11:9-18:20
+29            android:name="com.examen.chatapp.MainActivity"
+29-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:12:13-41
+30            android:exported="true" >
+30-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:13:13-36
+31            <intent-filter>
+31-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:14:13-17:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:15:17-69
+32-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:15:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:16:17-77
+34-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:16:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:20:9-79
+38            android:name="com.examen.chatapp.RegistroActivity"
+38-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:20:19-51
+39            android:exported="false" />
+39-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:20:52-76
+40        <activity
+40-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:21:9-79
+41            android:name="com.examen.chatapp.UsuariosActivity"
+41-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:21:19-51
+42            android:exported="false" />
+42-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:21:52-76
+43        <activity
+43-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:22:9-75
+44            android:name="com.examen.chatapp.ChatActivity"
+44-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:22:19-47
+45            android:exported="false" />
+45-->C:\Users\gutie\OneDrive\Documentos\UPIIZ\7CM1\ChatApp_Examen\app\src\main\AndroidManifest.xml:22:48-72
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gutie\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gutie\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+49            android:authorities="com.examen.chatapp.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gutie\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gutie\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gutie\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gutie\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gutie\.gradle\caches\transforms-4\b185c0d2974f0a49bf5a7a93c214c1a7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gutie\.gradle\caches\transforms-4\20c02b3182db97b2414d9722c05c8b2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gutie\.gradle\caches\transforms-4\20c02b3182db97b2414d9722c05c8b2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gutie\.gradle\caches\transforms-4\20c02b3182db97b2414d9722c05c8b2a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>

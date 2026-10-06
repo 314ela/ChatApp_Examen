@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_clip.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_clip.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_menu.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_bg_burbuja_recibida.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\bg_burbuja_recibida.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_bg_circulo_blanco.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\bg_circulo_blanco.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\layout_item_usuario.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\layout\\item_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\layout_item_mensaje_izquierda.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\layout\\item_mensaje_izquierda.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_persona.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_persona.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_people.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_people.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_bg_boton_borde.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\bg_boton_borde.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_more_vert.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_more_vert.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_chat.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_chat.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_bg_azul.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\bg_azul.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_bg_circulo.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\bg_circulo.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_lupa.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_lupa.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_ojito.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_ojito.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_enviar.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_enviar.png"
+    },
+    {
+        "merged": "com.examen.chatapp-debug-29:/layout_activity_usuarios.xml.flat",
+        "source": "com.examen.chatapp-main-31:/layout/activity_usuarios.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_bg_en_linea.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\bg_en_linea.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_bg_burbuja_enviada.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\bg_burbuja_enviada.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_personas.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_personas.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\layout_activity_usuarios.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\layout\\activity_usuarios.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_send.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_visibility.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_attach_file.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_attach_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_lock.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_mail.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_mail.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_bg_campo.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\bg_campo.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_puntitos.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_puntitos.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\layout_item_mensaje_derecha.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\layout\\item_mensaje_derecha.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\layout_activity_registro.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\layout\\activity_registro.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_arrow_back.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_arrow_back.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_ic_mail.png.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\ic_mail.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-debug-29:\\drawable_bg_boton_azul.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.examen.chatapp-main-31:\\drawable\\bg_boton_azul.xml"
+    }
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChatApp</string>
+
+    <!-- Login -->
+    <string name="login_subtitulo">Conecta con tus amigos</string>
+    <string name="login_hint_usuario">Usuario o correo</string>
+    <string name="login_hint_clave">Contraseña</string>
+    <string name="login_boton_iniciar">Iniciar sesión</string>
+    <string name="login_guardar_sesion">Guardar sesión iniciada</string>
+    <string name="login_o">o</string>
+    <string name="login_crear_cuenta">Crear una cuenta</string>
+    <string name="login_olvido_clave">¿Olvidaste tu contraseña?</string>
+    <string name="login_error_vacio">Escribe tu usuario y tu contraseña</string>
+    <string name="login_error_credenciales">Usuario o contraseña incorrectos</string>
+    <string name="login_correcto">Bienvenido</string>
+
+    <!-- Registro -->
+    <string name="registro_titulo">Registro</string>
+    <string name="registro_etiqueta_nombre">Nombre completo</string>
+    <string name="registro_hint_nombre">Ej. Juan Pérez</string>
+    <string name="registro_etiqueta_correo">Correo electrónico</string>
+    <string name="registro_hint_correo">ejemplo@correo.com</string>
+    <string name="registro_etiqueta_usuario">Usuario</string>
+    <string name="registro_hint_usuario">Mínimo 8 caracteres</string>
+    <string name="registro_etiqueta_clave">Contraseña</string>
+    <string name="registro_hint_clave">Mínimo 8 caracteres</string>
+    <string name="registro_etiqueta_confirmar">Confirmar contraseña</string>
+    <string name="registro_hint_confirmar">Repite tu contraseña</string>
+    <string name="registro_boton">Registrarse</string>
+    <string name="registro_ya_tienes_cuenta">¿Ya tienes una cuenta? Inicia sesión</string>
+    <string name="registro_error_nombre">El nombre debe tener mínimo 3 caracteres</string>
+    <string name="registro_error_clave_vacia">Escribe una contraseña</string>
+    <string name="registro_error_claves">Las contraseñas no coinciden</string>
+    <string name="registro_correcto">Registro correcto, inicia sesión</string>
+
+    <!-- Usuarios -->
+    <string name="usuarios_titulo">Usuarios</string>
+    <string name="menu_usuarios">Usuarios</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="boton_buscar">Buscar</string>
+    <string name="boton_menu">Menú</string>
+    <string name="boton_regresar">Regresar</string>
+
+    <!-- Chat -->
+    <string name="chat_en_linea">En línea</string>
+    <string name="chat_hint_mensaje">Escribe un mensaje…</string>
+    <string name="chat_boton_enviar">Enviar</string>
+    <string name="chat_boton_adjuntar">Adjuntar</string>
+    <string name="chat_boton_opciones">Opciones</string>
+    <string name="chat_mensaje_vacio">Escribe un mensaje primero</string>
+
+    <string name="icono">Icono</string>
+    <string name="ver_clave">Mostrar u ocultar contraseña</string>
+</resources>
